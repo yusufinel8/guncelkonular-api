@@ -1,7 +1,7 @@
-package com.example.project1.projectlessons.login.dto;
+package com.example.project1.projectlessons.loginandregister.dto;
 
-import com.example.project1.projectlessons.login.entity.Tblfileentity;
-import com.example.project1.projectlessons.login.entity.Userentity;
+import com.example.project1.projectlessons.loginandregister.entity.Tblfileentity;
+import com.example.project1.projectlessons.loginandregister.entity.Userentity;
 import lombok.Getter;
 import lombok.Setter;
 import org.apache.commons.lang.builder.EqualsBuilder;
@@ -18,17 +18,14 @@ public class Tblfiledto implements Serializable {
     private String tbl_file_path;
     private Date tbl_file_date;
     private String tbl_file_name;
-    private Userentity tbl_file_id;
 
     public Tblfiledto() {
 
     }
-
     public Tblfiledto(Builder builder) {
 
         this.tbl_file_date = builder.tbl_file_date;
         this.tbl_file_name = builder.tbl_file_name;
-        this.tbl_file_id = builder.tbl_file_id;
         this.tbl_id = builder.tbl_id;
         this.tbl_file_path = builder.tbl_file_path;
     }
@@ -49,8 +46,6 @@ public class Tblfiledto implements Serializable {
         private String tbl_file_path;
         private Date tbl_file_date;
         private String tbl_file_name;
-        private Userentity tbl_file_id;
-
         public Builder() {
         }
 
@@ -78,9 +73,8 @@ public class Tblfiledto implements Serializable {
             return this;
         }
 
-        public Builder tbl_file_id(final Userentity tbl_file_id) {
-            this.tbl_file_id = tbl_file_id;
-            return this;
+        public Tblfiledto build() {
+            return new Tblfiledto(this);
         }
 
         public Tblfileentity convertToentity(Tblfiledto tblfiledto) {
@@ -90,8 +84,6 @@ public class Tblfiledto implements Serializable {
             tblfileentity.setTbl_file_name(tblfiledto.getTbl_file_name());
             tblfileentity.setTbl_file_path(tblfiledto.getTbl_file_path());
             return tblfileentity;
-
-
         }
 
 

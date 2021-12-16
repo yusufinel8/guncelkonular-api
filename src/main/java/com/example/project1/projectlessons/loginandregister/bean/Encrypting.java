@@ -1,10 +1,9 @@
-package com.example.project1.projectlessons.login.bean;
+package com.example.project1.projectlessons.loginandregister.bean;
 
-import com.example.project1.projectlessons.login.dto.Logindto;
-import com.example.project1.projectlessons.login.dto.RegisterDto;
+import com.example.project1.projectlessons.loginandregister.dto.RegisterDto;
 
 public class Encrypting {
-    private void sifrele(RegisterDto registerDto){
+    private void sifrele(RegisterDto registerDto) {
 
     }
 }

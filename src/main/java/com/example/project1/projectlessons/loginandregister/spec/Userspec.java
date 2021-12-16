@@ -1,6 +1,6 @@
-package com.example.project1.projectlessons.login.spec;
+package com.example.project1.projectlessons.loginandregister.spec;
 
-import com.example.project1.projectlessons.login.entity.Userentity;
+import com.example.project1.projectlessons.loginandregister.entity.Userentity;
 import org.springframework.data.jpa.domain.Specification;
 
 import javax.persistence.criteria.CriteriaBuilder;

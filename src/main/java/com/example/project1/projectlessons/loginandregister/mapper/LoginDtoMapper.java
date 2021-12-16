@@ -1,9 +1,8 @@
-package com.example.project1.projectlessons.login.mapper;
+package com.example.project1.projectlessons.loginandregister.mapper;
 
-import com.example.project1.projectlessons.login.bean.EmailVerification;
-import com.example.project1.projectlessons.login.dto.Logindto;
-import com.example.project1.projectlessons.login.entity.Userentity;
-import org.apache.catalina.User;
+import com.example.project1.projectlessons.loginandregister.bean.EmailVerification;
+import com.example.project1.projectlessons.loginandregister.dto.Logindto;
+import com.example.project1.projectlessons.loginandregister.entity.Userentity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

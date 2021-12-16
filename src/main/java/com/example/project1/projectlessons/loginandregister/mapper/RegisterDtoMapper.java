@@ -1,9 +1,7 @@
-package com.example.project1.projectlessons.login.mapper;
+package com.example.project1.projectlessons.loginandregister.mapper;
 
-import com.example.project1.projectlessons.login.dto.Logindto;
-import com.example.project1.projectlessons.login.dto.RegisterDto;
-import com.example.project1.projectlessons.login.dto.Userdto;
-import com.example.project1.projectlessons.login.entity.Userentity;
+import com.example.project1.projectlessons.loginandregister.dto.RegisterDto;
+import com.example.project1.projectlessons.loginandregister.entity.Userentity;
 import org.springframework.stereotype.Component;
 
 @Component

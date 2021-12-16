@@ -1,6 +1,6 @@
-package com.example.project1.projectlessons.login.dto;
+package com.example.project1.projectlessons.loginandregister.dto;
 
-import com.example.project1.projectlessons.login.entity.Userentity;
+import com.example.project1.projectlessons.loginandregister.entity.Userentity;
 import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;

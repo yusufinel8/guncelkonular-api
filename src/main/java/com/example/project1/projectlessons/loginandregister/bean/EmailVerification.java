@@ -1,14 +1,11 @@
-package com.example.project1.projectlessons.login.bean;
+package com.example.project1.projectlessons.loginandregister.bean;
 
-import com.example.project1.projectlessons.login.dto.Logindto;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
 
 import java.util.concurrent.ThreadLocalRandom;
 

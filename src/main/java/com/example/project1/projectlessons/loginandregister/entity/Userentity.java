@@ -1,6 +1,6 @@
-package com.example.project1.projectlessons.login.entity;
+package com.example.project1.projectlessons.loginandregister.entity;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.sun.istack.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -27,6 +27,7 @@ public class Userentity implements Serializable {
     @Column(name = "user_name")
     private String user_name;
 
+    @NotNull
     @Column(name = "email")
     private String email;
     @Column(name = "password")

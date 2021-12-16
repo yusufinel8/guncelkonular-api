@@ -1,14 +1,15 @@
-package com.example.project1.projectlessons.login.service;
+package com.example.project1.projectlessons.loginandregister.service;
 
-import com.example.project1.projectlessons.login.dto.Logindto;
-import com.example.project1.projectlessons.login.dto.RegisterDto;
-import com.example.project1.projectlessons.login.dto.Userdto;
-import com.example.project1.projectlessons.login.entity.Userentity;
-import org.apache.catalina.User;
+import com.example.project1.projectlessons.loginandregister.dto.Logindto;
+import com.example.project1.projectlessons.loginandregister.dto.RegisterDto;
+import com.example.project1.projectlessons.loginandregister.dto.Tblfiledto;
+
+import java.util.List;
 
 public interface Userservice {
     
      Logindto login(Logindto logindto);
      RegisterDto register(RegisterDto registerDto);
+     List<Tblfiledto> getFileservice(int id);
 
 }
